@@ -1,0 +1,29 @@
+/target/
+enreka7001/target/
+mircoserviceapi/target/
+mircoserviceconsumerdept80/target/
+mircoserviceproviderdept8001/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
