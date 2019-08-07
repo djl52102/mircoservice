@@ -4,13 +4,13 @@ import java.util.List;
 
 import com.yonghui.springcloud.dao.DeptDao;
 import com.yonghui.springcloud.entity.Dept;
-import com.yonghui.springcloud.service.DeptService;
+import com.yonghui.springcloud.service.DeptServiceClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
 @Service
-public class DeptServiceImpl implements DeptService
+public class DeptServiceImpl implements DeptServiceClient
 {
 	@Autowired
 	private DeptDao dao;

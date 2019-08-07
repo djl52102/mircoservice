@@ -3,9 +3,8 @@ package com.yonghui.springcloud.controller;
 import java.util.List;
 
 import com.yonghui.springcloud.entity.Dept;
-import com.yonghui.springcloud.service.DeptService;
+import com.yonghui.springcloud.service.DeptServiceClient;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DeptController
 {
 	@Autowired
-	private DeptService service;
+	private DeptServiceClient service;
 	@Autowired
 	private DiscoveryClient client;
 

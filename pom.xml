@@ -16,6 +16,7 @@
         <module>eureka7003</module>
         <module>mircoserviceproviderdept8002</module>
         <module>mircoserviceproviderdept8003</module>
+        <module>mircoserviceconsumerdeptfeign</module>
     </modules>
     <packaging>pom</packaging>
 
