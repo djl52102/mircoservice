@@ -14,6 +14,8 @@
         <module>eureka7001</module>
         <module>eureka7002</module>
         <module>eureka7003</module>
+        <module>mircoserviceproviderdept8002</module>
+        <module>mircoserviceproviderdept8003</module>
     </modules>
     <packaging>pom</packaging>
 
